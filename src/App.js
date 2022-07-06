@@ -29,10 +29,14 @@ const App = () => {
       <User2
         name='Serhat'
         age={36}
-        musicLover={true}
+        // musicLover={true}
         musicGenre='Gothic & Darkwave'
         movieGenre='Sci-Fi'
         friends={friends2}
+        location={{
+          city: 'Kadıköy/Istanbul',
+          zip: 343434,
+        }}
       />
       {/* 
       <User2
